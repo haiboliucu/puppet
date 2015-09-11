@@ -1,5 +1,3 @@
-node 'mobley.ldeo.columbia.edu' {
-	file {'/tmp/hello':
-	content => "Hello, world\n",
-	}
+node 'mobley.ldeo.columbia.edu','sonny.ldeo.columbia.edu' {
+	include puppet
 }
